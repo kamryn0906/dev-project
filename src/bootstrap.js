@@ -19,12 +19,15 @@ function main() {
     <Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
         <Header>
-          <Switch>
+          <Shop/>
+          <About/>
+          <Contact/>
+          {/* <Switch>
             <Route path='/' exact component={Shop}/>
             <Route path='/signin' exact component={Shop}/>
            <Route path='/about' exact component={About}/>
            <Route path='/contact' exact component={Contact}/>
-          </Switch>
+          </Switch> */}
         </Header>
       </BrowserRouter>
     </Provider>,
