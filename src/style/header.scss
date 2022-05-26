@@ -1,14 +1,13 @@
-.slide_image img{
+.Header_img img{
     float: left;
     height: 510px;
     width: 100%;
+    padding-bottom: 30px;
 }
-.slide{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
+
 .Header h1{
     text-align: center;
-    padding-top: 5%;
+    background-color: antiquewhite;
+    font-size: 40px;
+    padding-bottom: 30px;
 }
